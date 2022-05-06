@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="utility.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Rubik:wght@300&family=Source+Code+Pro:wght@200&family=Tapestry&display=swap');
+        </style> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            background: url(index7.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 96vw;
+            height: 90vh;
+            margin: 30px 30px;
+            position: relative;
+            justify-content: center;
+        }
+        @media screen and (max-width:500px) {
+            .container {
+               margin: auto;
+
+
+
+            }
+            
+        }
+
+        .header {
+            width: 96vw;
+            height: 37px;
+            margin: 0px;
+            background-color: none;
+        
+
+        }
+
+        .header h3 {
+            margin: 10px;
+        }
+      
+
+        .header h3 a {
+            font-size: 22px;
+            color: #fff;
+            text-decoration: none;
+            font-family: sans-serif;
+            
+
+        }
+       
+
+        
+
+        .cont-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background: #000000bd;
+
+        }
+
+        .cont-items {
+            margin-top: 5px;
+            z-index: 2;
+            position: absolute;
+
+
+        }
+
+        .cont-items h3 a {
+            font-size: 22px;
+
+            color: white;
+
+            margin-top: 20px;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+
+
+
+
+
+        }
+        @media screen and (max-width:500px) {
+            .cont-items h3 a{
+                margin: auto;
+                font-size: 17px;
+            }
+            
+        }
+
+        .cont-items h3 a:hover {
+            text-decoration: underline;
+
+
+        }
+
+
+        .cont-items h1 {
+            font-size: 33px;
+            font-family: sans-serif;
+            color: #fff;
+            border: 1px solid lightgreen;
+            padding: 2px 8px;
+        }
+        @media screen and (max-width:500px) {
+            .cont-items h1  {
+               margin: auto;
+               font-size: 16px;
+               
+
+
+            }
+            
+        }
+
+        .cont-items ul {
+            margin: 10px;
+
+
+        }
+
+        .cont-items ul li {
+
+            list-style: none;
+            margin: 13px;
+
+        }
+
+        .cont-items ul li a {
+            font-size: 22px;
+            color: #fff;
+            text-decoration: none;
+            list-style: none;
+
+        }
+        @media screen and (max-width:500px) {
+            .cont-items ul li a{
+            margin: auto;
+            font-size: 14px;
+            }
+            
+        }
+
+        .cont-items ul li a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            
+            <div class="cont-items">
+                <div class="header">
+                    <h3><a href="index.html">HOME</a></h3>
+                </div>
+
+                <h1>Articles Written by Dr.HemRaj Rana based on his intelligence and research</h1>
+                <ul>
+                    <li><a href="#">1.CLINICAL IMPORTANCE OF SHADVIDH UPKRAMA</a></li>
+                    <li><a href="#">2. MENTAL WELLNESS THROUGH AYURVEDA</a></li>
+                    <li><a href="#">3. DESCRIPTION OF RESEARCH METHODOLOGY IN AYURVEDA</a></li>
+
+                </ul>
+            </div>
+            <div class="cont-overlay"></div>
+        </div>
+    </section>
+
+</body>
+
+</html>
